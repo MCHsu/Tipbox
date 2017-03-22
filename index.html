@@ -11,26 +11,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-  <script>
-  $(function(){
-　$(window).load(function(){
-　　$(window).bind('scroll resize', function(){
-　　var $this = $(this);
-　　var $this_Top=$this.scrollTop();
-    var $p = $(".nav");
-　　if($this_Top < 30){
-　　　$('.nav').stop().animate({top:"0px"});
-　　　$p.css("background-color","rgba(0, 0, 0, 0)");
-  }
-　　　　if($this_Top > 30){
-　　　　$('.nav').stop().animate({top:"-40px"});
-        $p.css("background-color","rgba(26, 23, 24, 0.9)");
-　　　 }
-　　}).scroll();
-　});
-　});
-    
-  </script>
   <!--navbar-->
   <div id="first" class="container ">
     <section class="container">
@@ -160,6 +140,25 @@
       </div>
     </footer>
    </div>
+      <script>
+  $(function(){
+　$(window).load(function(){
+　　$(window).bind('scroll resize', function(){
+　　var $this = $(this);
+　　var $this_Top=$this.scrollTop();
+    var $p = $(".nav");
+　　if($this_Top < 30){
+　　　$('.nav').stop().animate({top:"0px"});
+　　　$p.css("background-color","rgba(0, 0, 0, 0)");
+  }
+　　　　if($this_Top > 30){
+　　　　$('.nav').stop().animate({top:"-40px"});
+        $p.css("background-color","rgba(26, 23, 24, 0.9)");
+　　　 }
+　　}).scroll();
+　});
+　}); 
+  </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtrf5dNJ8NUMDm3qpfIetrRlO_NhSgk_g&language=en&callback=initMap"async defer></script>
 </body>
 </html>
