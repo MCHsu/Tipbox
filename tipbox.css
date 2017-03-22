@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:Quicksand;
+   
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.nav{
+   position: fixed;
+  height:20vh;  
+  width:100%;
+ z-index:6;   
+}
+.navbar{
+  margin-top:9vh;
+  
+}
+.top{
+  display: inline-block;
+  position:absolute;
+  left:71%;
+}
+.top p {
+  display: inline-block; 
+  color:white;
+  vertical-align: bottom;
+  font-weight:500;
+  letter-spacing:0.15vw;
+  word-spacing:0.075vw;
+    border-radius:10vh;
+    width:8vw;
+    height:3.7vh;
+    text-align: center;
+    margin-left:1.5vw;
+    padding-top:0.3vh;
+}
+.top p:hover {
+    background-color:rgba(26, 23, 24, 0.9);
+}
+.tga{
+  display: inline-block;
+  position:absolute;
+  left:9.7vw;
+  vertical-align: bottom;
+    
+} 
+.g {
+  position:absolute;
+  left:39%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.g1{filter: grayscale(10);}
+.g :hover{filter: grayscale(0);}
+.a {
+  position:absolute;
+  left:44%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.a :hover{filter:brightness(10);}
+#first {
+  background-image: url("https://github.com/MCHsu/Tipbox/blob/master/slider_3.jpg?raw=true");
+  background-size: cover;
+    z-index: 1;
+    transition-property:  background-image;
+  transition-duration: 4s;
+  transition-delay: 2s;
+    
+    
+}
+#first:hover {
+  background-image: url("https://github.com/MCHsu/Tipbox/blob/master/slider_2.jpg?raw=true");
+  background-size: cover;
+  z-index: 2;
+  transition-property:  background-image;
+  transition-duration: 4s;
+  transition-delay: 2s;
+
+    
+}
+.menu {
+  background-color: rgba(26, 23, 24, 0.9);
+  width: 50%;
+  height: 100vh;
+  color: white;
+  position:absolute;
+}
+
+.text {
+  position:absolute;
+  left: 10.5vw;
+  top: 22vh;
+  font-size:4.25vh;
+  font-weight:300;
+  letter-spacing:0.29vw;
+  line-height:5.07vw;
+  word-spacing:0.2vw;
+  width: 50%;
+  display:block;
+
+}
+img.search{
+    float: left;
+    width: 3.5vh;
+    margin-left:11.8vw;
+    margin-top: -5.9vh;
+     
+}
+img.search:hover{
+    filter:brightness(0);
+}
+img.search1{ margin-left:35.5vw;}
+.search input{
+  border-style:none;
+  height: 8.5vh;
+  float: left;
+  margin-left:10.2vw;
+  padding-left:4vw;
+  vertical-align: middle;
+  font-size: 3.5vh;
+  border-radius: 90px;
+  width:29vw;
+  margin-top:78vh;
+}
+#second {
+  background-color: #e6e5e0;
+  text-align:center;
+    z-index:-1;
+    position:relative;
+}
+
+div.logo {
+  height: 13vh;
+  background-color: white;
+  text-align:center;
+  display: -webkit-flex;
+  display: flex;
+}
+img.logo{
+  margin:auto;
+  padding:0.5vh 3.625vw;
+  -webkit-flex: 4;
+          flex: 4;
+}
+.second h1{
+  padding-top:60px;
+  font-size:40px;
+  word-spacing:3px;
+  letter-spacing:2px;
+}
+
+div.floatall{
+  display: -webkit-flex;
+  display: flex;
+  width:1200px;
+  margin:0 auto;
+    z-index:-1;
+    position:relative;
+
+}
+.float {
+  display:inline-block;
+  margin:15vh 2vw;
+  -webkit-flex: 4;
+          flex: 4;
+}
+.float >p{
+  font-size:25px;
+  word-spacing:1px;
+  font-weight: normal;
+  line-height:35px;
+  letter-spacing:2px;
+}
+.float:nth-of-type(4){
+    margin-top: 87px;
+}
+.dot {
+  background-color: #f4511c;
+  border-radius: 50%;
+  text-align:center;
+  width: 30px;
+  height:30px;
+  color:white;
+  margin:20px auto; 
+}
+.dot p{padding-top:5px;}
+
+
+.arrow{
+    width:100px;
+    height: :100px;
+    margin-left:300px;
+    z-index:2;
+    margin-top: -20px;
+    border-radius:100%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    
+}
+.arrow img{
+    position:relative;
+    margin-top:-80px;
+    height: :50px;
+    width: 50px;
+    margin-left:-380px;
+    box-sizing: padding-box;
+    padding:50px;
+    border-radius:50%;
+    z-index:5;
+    background-color:#e6e5e0;
+}  
+.find {
+  z-index:1;
+  margin-top:-100vh;
+  margin-left:11vw;    
+  font-size:25px; 
+  position:relative;
+  letter-spacing:2px;    
+}
+.find p{
+    font-weight: 600;
+    padding-top:20px;
+    color: #4a4a4a;
+}
+.searchit{ 
+    position: absolute;
+    margin-top:22vh;
+    left:-6.4vw;
+}
+
+#map{ 
+  height:124vh;
+  width:100vw;
+   z-index:1;
+    position:relative;
+    top:-7vh;
+}
+.search3 input{
+    position: relative;
+    margin-top:8vh;
+    margin-left:0vw;
+}
+.search3 img{ 
+    position:relative;
+    margin-top:10.5vh;
+    margin-left:-27.5vw;
+}
+.search3 img:nth-child(3){
+     margin-left:-3.5vw;
+}
+#four {
+  background-image: url(https://github.com/MCHsu/Tipbox/blob/master/slider_2.jpg?raw=true);
+  background-size: cover;
+  background-color: rgba(20, 23, 24, 0.6);
+  background-blend-mode: multiply;
+  color: white;
+}
+.search {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #231f20;
+  color: white;
+  text-align: center;
+  height: 350px;
+  letter-spacing:1px;
+
+}
+
+.footer {
+padding-top:40px;
+}
+.footer p{
+  white-space:pre;
+}
+.footer1{ 
+ padding:10px;
+}
+h1.footer1{
+    margin-top:-10px;
+}
+img.footer1{
+  display:inline-block;
+}
+.vote{
+    position: relative;
+    left:150px;
+    top: 150px;
+}
+.vote h1{
+  letter-spacing:3px;
+  font-size:65px;
+  font-weight:500;
+}
+.vote p{
+  letter-spacing:2px;
+  line-height: 48px;
+  font-size:33px;
+  font-weight:500;
+  padding-top: 30px;
+}
+.input input{
+  border-style:none;
+  display:inline-block;
+  height: 50px;
+  float: left;
+  margin-left: 50px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+  border-radius: 90px;
+  width:300px;
+}
+.input1,.input2{
+  color: #727272;
+  font-weight:bold;
+}
+.button{
+  width:190px;
+  height: 50px;
+  color: #231f20;
+  background-color: #f4511c;
+  font-weight:bold;
+  text-align: center;
+  border-style:none;
+  display:inline-block;
+  float: left;
+  font-size: 20px;
+  border-radius: 90px;
+  margin-left:90px;
+  z-index:2;
+}
+.button:hover{
+    background-color:rgba(20, 23, 24, 0.6);
+    color: white;
+}
+.choose{
+position:relative;
+  float:left;
+  left:-50px;
+  top:20px;
+}
+#ib{
+  position:relative;
+  left:100px;
+  top:220px;
+}
