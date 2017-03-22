@@ -14,8 +14,7 @@
           title: 'Hello World!'
         });
       }
-/**/
- $(function(){
+/*navbar*/
 　$(window).load(function(){
 　　$(window).bind('scroll resize', function(){
 　　var $this = $(this);
@@ -33,4 +32,4 @@
 　　　 }
 　　}).scroll();
 　});
-});
+
