@@ -197,11 +197,11 @@ div.floatall{
   height:2vw;
   color:white;
   margin:1.4vw auto;
-     
+   padding:0.3vw;    
 }
 .dot p{
     font-size: 1.3vw;
-    padding:0.15vw vw;  
+    padding-top:0.2vw; 
     }
 .float img{
    height:7vw; 
@@ -269,7 +269,7 @@ div.floatall{
      margin-left:-3.5vw;
 }
 #four {
-  background-image: url(https://github.com/MCHsu/Tipbox/blob/master/slider_2.jpg?raw=true);
+  background-image: url(slider_2.jpg);
   background-size: cover;
   background-color: rgba(20, 23, 24, 0.6);
   background-blend-mode: multiply;
